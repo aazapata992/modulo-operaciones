@@ -1,0 +1,26 @@
+{
+  "name": "modulo-operaciones-npm",
+  "version": "1.0.0",
+  "description": "Modulo NPM de para las operaciones basicas",
+  "main": "dist/src/operaciones.js",
+  "scripts": {
+    "build": "babel src/operaciones.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aazapata992/modulo-operaciones/"
+  },
+  "keywords": [
+    "SM",
+    "operaciones",
+    "basicas"
+  ],
+  "author": "Alirio Zapata",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
